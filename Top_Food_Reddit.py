@@ -52,34 +52,4 @@ class RedditParsing:
         return df_return
 
 
-# Example usage
-# browse = RedditParsing(client_id, client_secret, user_agent)
-# google_query = "Best mexican food in boston reddit"
-# num_results = 3  # You can adjust this based on your needs
-# google_results = browse.search_google(google_query, num_results)
-# #
-# posts_df = pd.DataFrame(columns = ['title', 'score', 'top_comment'])
-# if google_results:
-#     # Store entire post objects in a list
-#     for result_url in google_results:
-#         post_info = browse.scrape_data_from_reddit(result_url)
-#         posts_df = pd.concat([posts_df, post_info], ignore_index = True)
-#
-# else:
-#     print("no results found")
-#
-# print(posts_df)
-
-#
-#
-#
-# print(posts_list)
-# for post in posts_list:
-#         # print(f'Title: {post.title}')
-#         # print(f'URL: {post.url}')
-#         # print(f'Score: {post.score}')
-#         top_comment = post['top_comment'][0]
-#         score = post['top_comment'][1]
-#         print(f"Top comment: {top_comment} \n Score: {score}")
-#         print('---')
 
