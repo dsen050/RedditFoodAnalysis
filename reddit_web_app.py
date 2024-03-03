@@ -7,10 +7,10 @@ import numpy as np
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 #reddit info
-client_id = "78r9DwcMH9rcTrYNq7z_nQ"
-client_secret = "_0pRlkM-HRmFo1pKmNeeg8_VRzFkGA"
+client_id = "client_id"
+client_secret = "client_secret"
 user_agent = "my user agent"
-api_key = 'aeUNyZ6qhJypkk0EwziKg2WH5Z_giVGlwbuWs4ncp2vIQKn6E_ymy62-ItCGIQswLd0Hh2H3XkXRL1jD-YhxZxQUwReOF9v6My78B2g2hzGyhJ8e4pfy6V2mXzrSZXYx'
+api_key = 'api_key'
 
 st.title('Reddit Cuisine')
 
