@@ -2,8 +2,8 @@ import praw
 import pandas as pd
 from googlesearch import search
 
-client_id = "78r9DwcMH9rcTrYNq7z_nQ"
-client_secret = "_0pRlkM-HRmFo1pKmNeeg8_VRzFkGA"
+client_id = "client_id"
+client_secret = "client_secret"
 user_agent = "my user agent"
 
 class RedditParsing:
